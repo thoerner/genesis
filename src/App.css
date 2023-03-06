@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Canterburry';
+  font-style: normal;
+  src: local('Canterburry'), url(./assets/fonts/Canterbury.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BlackChancery';
+  font-style: normal;
+  src: local('BlackChancery'), url(./assets/fonts/BlackChancery.ttf) format('truetype');
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background-color: white;
+}
+
+.read-the-docs {
+  color: #111;
+  font-family: 'BlackChancery', cursive;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.title {
+  font-size: 10vh;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Canterburry', cursive;
+}
+
+.signature {
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Canterburry', cursive;
+}
+
+.author {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Canterburry', cursive;
+  color: #111;
+}
+
+.date {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Canterburry', cursive;
+  color: #111;
+}
