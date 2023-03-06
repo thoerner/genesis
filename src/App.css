@@ -49,13 +49,6 @@
   background-color: white;
 }
 
-.read-the-docs {
-  color: #111;
-  font-family: 'BlackChancery', cursive;
-  font-size: 1.5em;
-  line-height: 2em;
-}
-
 .title {
   font-size: 10vh;
   font-weight: 400;
@@ -85,3 +78,28 @@
   font-family: 'Canterburry', cursive;
   color: #111;
 }
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .read-the-docs {
+    color: #111;
+    font-family: 'BlackChancery', cursive;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  .card {
+    padding: 1em;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 769px) {
+  .read-the-docs {
+    color: #111;
+    font-family: 'BlackChancery', cursive;
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+}
+  
+
